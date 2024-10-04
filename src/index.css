@@ -65,7 +65,7 @@ body {
 }
 
 .content {
-  color: white;
+  color: black;
   text-align: center;
   z-index: 5;
   padding: 20px;
@@ -277,10 +277,11 @@ body {
   max-width: 500px;
   margin: 80px auto;
   padding: 40px;
- 
+  backdrop-filter: blur(2px);
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
 .auth-welcome-container h1 {
@@ -379,14 +380,14 @@ body {
 .switch-auth button {
   background: none;
   border: none;
-  color: #007bff;
+  
   text-decoration: underline;
   cursor: pointer;
   font-size: 1em;
 }
 
 .switch-auth button:hover {
-  color: #0056b3;
+  color: cr;
 }
 
 /* Primary Button in Home Section */
@@ -610,7 +611,7 @@ body {
 
 .secondary-button {
   background-color: #6c757d;
-  color: #fff;
+  color: blue;
   padding: 8px 12px;
   border: none;
   border-radius: 3px;
